@@ -17,10 +17,12 @@ example:
 Enter number:4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
+import math
 
 num=()
 
 num=input("enter number: ")
 num=int(num)
-for i in range(73):
+num=int==0
+for i in range(12):
     print(i)
