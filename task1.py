@@ -22,5 +22,5 @@ num=()
 
 num=input("enter number: ")
 num=int(num)
-for i in range(12):
+for i in range(73):
     print(i)
