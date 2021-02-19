@@ -25,5 +25,5 @@ num=input("enter number: ")
 num=int(num)
 
 for i in range(13):
-    print(i*num)
+    print(i*num, end=" ")
 
