@@ -23,6 +23,7 @@ num=()
 
 num=input("enter number: ")
 num=int(num)
-num=int==0
+
 for i in range(12):
-    print(i)
+    print(i*4)
+
