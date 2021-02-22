@@ -50,9 +50,7 @@ Invalid input
 * enter a number
 
 - check to see if the input is a positive integer
-if positive integer
-    calculate factorial
-- not positive integer
+- if not positive integer
     display "Invalid input"
 
 
@@ -61,11 +59,9 @@ import math
 num=()
 
 number=input("Enter a number: ")
-number=int(number)
+number=float(number)
 
-for i in range(number):
-    if number>0:
-        print ( str(number) + "! is " + str(i) )
-    else:
-        if number<0:
-            print("Invalid input")
+if number>0:
+    print (number)
+if number<0 or %0:
+    print ("Invalid input")
