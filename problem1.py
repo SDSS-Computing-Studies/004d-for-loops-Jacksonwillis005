@@ -28,18 +28,8 @@ number=()
 
 number=input("enter a number ")
 number=int(number)
-
-if number==5:
-    print ("*****")
-    print ("*****")
-    print ("*****")
-    print ("*****")
-    print ("*****")
-if number==10:
-    print("**********")
-    print("**********")
-    print("**********")
-    print("**********")
-    print("**********")
-else:
-    print("NOPE")
+star="******"
+for i in range(number):
+    print(i)
+    print(number)
+    print(number*star)
