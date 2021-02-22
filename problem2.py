@@ -33,7 +33,25 @@ example:
 Enter a number: 4
 4! is 24
 
+
+1! = 1
+2! = 1 * 2 = 2
+3! = 1 * 2 * 3 = 6
+4! = 1 * 2 * 3 * 4 = 24
+
+
 example:
 Enter a number: -4
 Invalid input
 """
+import math
+num=()
+
+number=input("Enter a number: ")
+number=int(number)
+
+for i in range(number):
+    if number!i:
+        print ( str(number) + " is " + str(number) )
+    else:
+        print("Invalid input")
