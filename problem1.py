@@ -30,6 +30,4 @@ number=input("enter a number ")
 number=int(number)
 star="*"
 for i in range(number):
-    print(i)
-    print(number)
     print(number*star)
