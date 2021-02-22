@@ -65,7 +65,7 @@ number=int(number)
 
 for i in range(number):
     if number>0:
-        print ( str(number) + "! is " + str(number) )
+        print ( str(number) + "! is " + str(i) )
     else:
         if number<0:
             print("Invalid input")
