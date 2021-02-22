@@ -24,14 +24,22 @@ enter a number:4
 """
 import math
 
+number=()
+
 number=input("enter a number ")
 number=int(number)
 
-if number == 5:
+if number==5:
     print ("*****")
     print ("*****")
     print ("*****")
     print ("*****")
     print ("*****")
+if number==10:
+    print("**********")
+    print("**********")
+    print("**********")
+    print("**********")
+    print("**********")
 else:
     print("NOPE")
