@@ -27,7 +27,7 @@ import math
 number=input("enter a number ")
 number=int(number)
 
-if number is "5":
+if number == 5:
     print ("*****")
     print ("*****")
     print ("*****")
