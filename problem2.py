@@ -43,6 +43,19 @@ Enter a number: 4
 example:
 Enter a number: -4
 Invalid input
+
+
+
+
+* enter a number
+
+- check to see if the input is a positive integer
+if positive integer
+    calculate factorial
+- not positive integer
+    display "Invalid input"
+
+
 """
 import math
 num=()
@@ -51,7 +64,8 @@ number=input("Enter a number: ")
 number=int(number)
 
 for i in range(number):
-    if number!i:
+    if number>0:
         print ( str(number) + " is " + str(number) )
     else:
-        print("Invalid input")
+        if number<0:
+            print("Invalid input")
